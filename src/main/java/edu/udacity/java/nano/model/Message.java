@@ -27,17 +27,17 @@ public class Message {
     }
 
 
-    public Message(MessageType type, String sender, String content, int onlineTotal) {
+    public Message(MessageType type, String sender, String content, int counter) {
         this.type = type;
         this.sender = sender;
         this.content = content;
-        this.counter = onlineTotal;
+        this.counter = counter;
     }
 
 
 
-    public static String jsonStr(String type, String sender, String content, int onlineTotal) {
-        return JSON.toJSONString(new Message( MessageType.valueOf(type), sender, content, onlineTotal));
+    public static String jsonStr(String type, String sender, String content, int counter) {
+        return JSON.toJSONString(new Message( MessageType.valueOf(type), sender, content, counter));
     }
 
     public MessageType getType() {

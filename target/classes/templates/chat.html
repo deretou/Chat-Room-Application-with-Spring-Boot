@@ -103,7 +103,7 @@
                     '<div class="mdui-card-content message-content">' + message.sender + "：" + message.content + '</div>' +
                     '</div></div>');
             }
-            $('.chat-num').text(message.onlineCount);
+            $('.chat-num').text(message.counter);
             var $cards = $messageContainer.children('.mdui-card:visible').toArray();
             if ($cards.length > 5) {
                 $cards.forEach(function (item, index) {
