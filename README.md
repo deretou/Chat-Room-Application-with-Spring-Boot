@@ -9,5 +9,8 @@ A chatroom using WebSocket and Spring Boot MVC framework.
 # Chat
 ![Demo image](https://github.com/deretou/Chat-Room-Application-with-Spring-Boot/blob/master/demopic.JPG)
 
+# Test + Package
+![Demo image](https://github.com/deretou/Chat-Room-Application-with-Spring-Boot/blob/master/package.JPG)
+
 # Resources
 PS. A part of the source code is from [this repo](https://github.com/deretou/springboot-socks/tree/master/springboot-websocket-chat).
